@@ -1,3 +1,68 @@
 .background {
   background-color: rgb(40, 40, 40);
 }
+
+.content {
+
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+
+}
+
+.duckduckgo_search {
+
+  text-align: center;
+
+  margin-bottom: 40px;
+
+}
+
+.duckduckgo_search img {
+  filter:drop-shadow(10px 10px 10px rgb(20, 20, 20));
+}
+
+.select {
+
+  list-style: none;
+
+}
+
+.select
+
+.icons {
+
+  margin-top: 10px;
+
+
+}
+
+.icons img:hover {
+  filter:drop-shadow(10px 10px 10px rgb(20, 20, 20));
+  transform: translateY(-0.2rem);
+}
+
+.icons img {
+  width: 80pt;
+  filter:drop-shadow(4px 4px 4px rgb(30, 30, 30));
+  transition: 0.1s ease-in-out;
+}
+
+.icons .social {
+
+  text-align: center;
+
+}
+
+.icons .tools {
+
+  text-align: center;
+
+}
+
+.icons .other {
+
+  text-align: center;
+
+}
